@@ -1,7 +1,10 @@
 module.exports = {
-  parseOptions: {
-    parser: 'babel-eslint'
+  extends: ['alloy', 'alloy/typescript'],
+  env: {
+    browser: true,
+    node: true,
+    jest: true
   },
-  extends: [],
+  globals: {},
   rules: []
 };
