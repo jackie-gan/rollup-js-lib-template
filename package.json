@@ -1,0 +1,32 @@
+{
+  "name": "rollup-js-lib-template",
+  "version": "1.0.0",
+  "description": "a rollup template for basic js lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jackie-gan/rollup-js-lib-template.git"
+  },
+  "keywords": [
+    "js",
+    "library",
+    "template"
+  ],
+  "author": "jackie gan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jackie-gan/rollup-js-lib-template/issues"
+  },
+  "homepage": "https://github.com/jackie-gan/rollup-js-lib-template#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.5.0",
+    "rollup": "^1.22.0",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.3"
+  }
+}
