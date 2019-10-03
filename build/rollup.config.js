@@ -3,7 +3,7 @@ import typescript from 'rollup-plugin-typescript';
 const config = {
   input: ['src/index.ts'],
   output: {
-    file: 'index.js',
+    file: 'dist/index.js',
     format: 'cjs'
   },
   plugins: [
