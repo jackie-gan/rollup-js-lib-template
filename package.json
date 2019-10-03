@@ -4,7 +4,7 @@
   "description": "a rollup template for basic js lib",
   "main": "index.js",
   "scripts": {
-    "dev": "",
+    "dev": "rollup -c ./build/rollup.config.js --watch",
     "build": "rollup -c ./build/rollup.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -33,5 +33,10 @@
     "rollup-plugin-typescript": "^1.0.1",
     "tslib": "^1.10.0",
     "typescript": "^3.6.3"
-  }
+  },
+  "files": [
+    "dist",
+    "types"
+  ],
+  "types": "types/index.d.ts"
 }
